@@ -28,18 +28,23 @@ small {
     margin-top: 5px;
 }
 
-.log-button {
+.button {
     display: flex;
     justify-content: center;
     margin: auto;
     padding: 7px;
     margin-top: 25px;
+    width: 75px;
+    color: black;
+    background: #ffff;
+    border-radius: 10px;
 }
 
 .dont-have {
     color: #ffff;
     margin-top: 15px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .dont-have a {
