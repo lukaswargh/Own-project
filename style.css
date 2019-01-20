@@ -86,10 +86,37 @@ small {
     
 }
 
-.bottom {
-    color: #fff;
+.bottom-buttons {
+    bottom: 0;
+    position: fixed;
+    text-align: center;
     display: flex;
-    justify-content: flex-end;
-    margin: auto; 
-    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+}
+
+.bottom1,
+.bottom2,
+.bottom3 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    border-right: grey 1px solid;
+    height: 35px;
+    font-weight: bold;
+    transition: 0,7s;
+}
+
+.bottom1 {
+    background-color: #00A8E8;
+    color: white;
+    border-top: grey 1px solid;
+}
+
+.bottom1:focus,
+.bottom2:focus,
+.bottom3:focus {
+    text-decoration: underline;
+    color: white;
+    background-color: #00A8E8;
 }
