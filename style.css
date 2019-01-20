@@ -95,6 +95,8 @@ small {
     width: 400px;
 }
 
+/* sendbottom */
+
 .bottom1,
 .bottom2,
 .bottom3 {
@@ -119,4 +121,70 @@ small {
     text-decoration: underline;
     color: white;
     background-color: #00A8E8;
+}
+
+/* Requestbottom */
+
+.bottom4,
+.bottom5,
+.bottom6 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    border-right: grey 1px solid;
+    height: 35px;
+    font-weight: bold;
+    transition: 0,7s;
+}
+
+.bottom5 {
+    background-color: #00A8E8;
+    color: white;
+    border-top: grey 1px solid;
+}
+
+.bottom4:focus,
+.bottom5:focus,
+.bottom6:focus {
+    text-decoration: underline;
+    color: white;
+    background-color: #00A8E8;
+}
+
+h5 {
+    color: #ffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.bottom7,
+.bottom8,
+.bottom9 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    border-right: grey 1px solid;
+    height: 35px;
+    font-weight: bold;
+    transition: 0,7s;
+}
+
+.bottom7:focus,
+.bottom8:focus,
+.bottom9:focus {
+    text-decoration: underline;
+    color: white;
+    background-color: #00A8E8;
+}
+
+.bottom9 {
+    background-color: #00A8E8;
+    color: white;
+    border-top: grey 1px solid;
+}
+
+.account-balance {
+    font-size: 64px;
 }
