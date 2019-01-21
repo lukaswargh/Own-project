@@ -2,6 +2,8 @@ body {
     background-color: #007EA7;
 }
 
+/* Logo */
+
 h3 {
     color: #fff;
     font-size: 36px;
@@ -10,6 +12,8 @@ h3 {
     font-weight: bold;
     font-family: 'Coiny', cursive;
 }
+
+/* Index */
 
 .login-page {
     width: 200px;
@@ -28,6 +32,8 @@ small {
     margin-top: 5px;
 }
 
+/* Button */
+
 .button {
     display: flex;
     justify-content: center;
@@ -39,6 +45,8 @@ small {
     background: #ffff;
     border-radius: 10px;
 }
+
+/* Dont have? register here */
 
 .dont-have {
     color: #ffff;
@@ -53,6 +61,8 @@ small {
     text-align: center;
     text-decoration: underline;
 }
+
+/* Send */
 
 .send-money {
     color: white;
@@ -83,8 +93,10 @@ small {
     display: flex;
     justify-content: center;
     width: 100px;
-    
+
 }
+
+/* Bottombuttons */
 
 .bottom-buttons {
     bottom: 0;
@@ -106,7 +118,7 @@ small {
     border-right: grey 1px solid;
     height: 35px;
     font-weight: bold;
-    transition: 0,7s;
+    transition: 0, 7s;
 }
 
 .bottom1 {
@@ -134,7 +146,7 @@ small {
     border-right: grey 1px solid;
     height: 35px;
     font-weight: bold;
-    transition: 0,7s;
+    transition: 0, 7s;
 }
 
 .bottom5 {
@@ -168,7 +180,7 @@ h5 {
     border-right: grey 1px solid;
     height: 35px;
     font-weight: bold;
-    transition: 0,7s;
+    transition: 0, 7s;
 }
 
 .bottom7:focus,
@@ -184,6 +196,8 @@ h5 {
     color: white;
     border-top: grey 1px solid;
 }
+
+/* Balance */
 
 .account-balance {
     font-size: 64px;
