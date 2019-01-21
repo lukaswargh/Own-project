@@ -105,6 +105,7 @@ small {
     display: flex;
     justify-content: center;
     width: 105vw;
+    
 }
 
 /* sendbottom */
@@ -116,9 +117,9 @@ small {
     font-family: 'Montserrat', sans-serif;
     background-color: #fff;
     border-right: grey 1px solid;
-    height: 35px;
+    height: 50px;
     font-weight: bold;
-    transition: 0, 7s;
+    padding-top: 12px;
 }
 
 .bottom1 {
@@ -144,9 +145,9 @@ small {
     font-family: 'Montserrat', sans-serif;
     background-color: #fff;
     border-right: grey 1px solid;
-    height: 35px;
+    height: 50px;
     font-weight: bold;
-    transition: 0, 7s;
+    padding-top: 12px;
 }
 
 .bottom5 {
@@ -178,9 +179,9 @@ h5 {
     font-family: 'Montserrat', sans-serif;
     background-color: #fff;
     border-right: grey 1px solid;
-    height: 35px;
+    height: 50px;
     font-weight: bold;
-    transition: 0, 7s;
+    padding-top: 12px;
 }
 
 .bottom7:focus,
@@ -201,4 +202,13 @@ h5 {
 
 .account-balance {
     font-size: 64px;
+}
+
+.logout {
+    width: 100vw;
+    color: black;
+    background-color: white;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif; 
 }
